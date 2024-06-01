@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 36px;
+}
+.hero p {
+    font-size: 18px;
+}
+.hero .cta {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.features, .about-us, .courses, .testimonials, .cta-section {
+    padding: 20px;
+    text-align: center;
+}
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+.features ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.team {
+    display: flex;
+    justify-content: center;
+}
+.team .team-member {
+    margin: 0 10px;
+    text-align: center;
+}
+.team .team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.team .team-member p {
+    font-size: 16px;
+}
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+.course h3 {
+    font-size: 20px;
+    margin: 0;
+}
+.course p {
+    font-size: 16px;
+}
+.testimonials blockquote {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.cta-section .cta {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+footer .contact-info, footer .social-media, footer .legal {
+    margin: 10px 0;
+}
+footer .social-media a, footer .legal a {
+    color: #ff9800;
+    margin: 0 5px;
+    text-decoration: none;
+}
